@@ -1,10 +1,11 @@
-import Description from "./description";
+import Cart from "./Cart";
 
 function Header() {
+    const titre = "La Maison Jungle";
   return (
     <>
-      <h1>La MaisonJungle</h1>
-      <Description />
+      <h1> {titre.toUpperCase()} </h1>
+      <Cart />
     </>
   );
 }
