@@ -1,8 +1,11 @@
+import Description from "./description";
+
 function Header() {
   return (
-    <div>
+    <>
       <h1>La MaisonJungle</h1>
-    </div>
+      <Description />
+    </>
   );
 }
 
