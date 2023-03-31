@@ -1,11 +1,11 @@
-import Cart from "./Cart";
+
+import '../styles/Banniere.css'
 
 function Header() {
-    const titre = "La Maison Jungle 🪴";
+   
   return (
-    <>
-      <h1> {titre.toUpperCase()} </h1>
-      <Cart />
+    <>  
+      
     </>
   );
 }
